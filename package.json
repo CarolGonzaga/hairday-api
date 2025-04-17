@@ -2,7 +2,7 @@
     "name": "hairday-api",
     "version": "1.0.0",
     "scripts": {
-        "start": "json-server server.json --port $PORT"
+        "start": "json-server server.json --host 0.0.0.0 --port $PORT"
     },
     "dependencies": {
         "json-server": "^0.17.3"
